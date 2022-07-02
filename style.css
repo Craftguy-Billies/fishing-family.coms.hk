@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  margin: 24px 0;
+  line-height: 2;
+}
+
+.wrapper {
+  padding: 32px;
+}
+
+.cookie-container {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: #2f3640;
+  color: #f5f6fa;
+  padding: 0 32px;
+  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+
+  transition: 400ms;
+}
+
+.cookie-container.active {
+  bottom: 0;
+}
+
+.cookie-container a {
+  color: #f5f6fa;
+}
+
+.cookie-btn {
+  background: #e84118;
+  border: 0;
+  color: #f5f6fa;
+  padding: 12px 48px;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.display-3 {
+	float: right;
+    background-color: #00FF57;
+    border: thick double #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+    left: 19px;
+    top: 581px;
+	cursor: pointer;
+}
+.display-3:active {
+	background-color: #f05e54
+}
+
+.display-4 {
+	background-color: #f7dc88;
+	border: thick solid #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	left: 0px;
+    top: 450px;
+	cursor: pointer;
+   
+}
+.display-4:active {
+	background-color: #f05e54
+}
+.display-5:active {
+	background-color: #f05e54
+}
+.display-6:active {
+	background-color: #f05e54
+}
+
+.display-5 {
+	background-color: #ecffad;
+	border: thick double #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	 left: 0px;
+    top: 550px;
+	cursor: pointer;
+   
+}
+
+.display-6 {
+	background-color: #e39dfc;
+	border: thick double #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	 left: 0px;
+    top: 650px;
+	cursor: pointer;
+	
+}
+
+.display-7 {
+	background-color: #66fa7f;
+	border: thick double #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	 left: 0px;
+    top: 750px;
+cursor: pointer;
+}
+
+.display-8 {
+	left: 0px;
+    top: 1000px;
+	
+}
+
+.display-9 {
+	background-color: #faa0c4;
+	border: thick double #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	 left: 0px;
+    top: 850px;
+cursor: pointer;
+}
+.display-7:active {
+	background-color: #f05e54
+}
+.display-9:active {
+	background-color: #f05e54
+}
+.display-10 {
+	background-color: #abadf7;
+	border: thick solid #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	 left: 0px;
+    top: 950px;
+	cursor: pointer;
+	
+}
+
+.display-11 {
+	background-color: #dff7ab;
+	border: thick solid #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	 left: 0px;
+    top: 1050px;
+	cursor: pointer;
+	
+}
+
+.display-12 {
+	background-color: #FFA9AA;
+	border: thick solid #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	 left: 0px;
+    top: 1150px;
+	cursor: pointer;
+	
+}
+.display-13 {
+	background-color: #F26BFF;
+	border: thick solid #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	 left: 0px;
+    top: 1250px;
+	cursor: pointer;
+	
+}
+.display-14 {
+	background-color: #FFFEA7;
+	border: thick double #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	 left: 0px;
+    top: 1350px;
+	cursor: pointer;
+	
+}
+.display-10:active {
+	background-color: #f05e54
+}
+.display-11:active {
+	background-color: #f05e54
+}
+.display-12:active {
+	background-color: #f05e54
+}
+.display-13:active {
+	background-color: #f05e54
+}
+.display-14:active {
+	background-color: #f05e54
+}
+.display-15 {
+	background-color: #00055C;
+	border: thick double #ffffff;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+	 left: 0px;
+    top: 1450px;
+	cursor: pointer;
+	
+}
+.display-15:active {
+	background-color: #f05e54
+}
+.display-50 {
+	float: right;
+	background-color: #f7dc88;
+	border: thick solid #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	cursor: pointer;
+   
+}
+.display-50:active {
+	background-color: #f05e54
+}
+.display-16:active {
+	background-color: #f05e54
+}
+.display-17:active {
+	background-color: #f05e54
+}
+.display-18:active {
+	background-color: #f05e54
+}
+.display-16 {
+	background-color: #8D82FF;
+	border: thick double #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	 left: 0px;
+    top: 1550px;
+	cursor: pointer;
+	
+}
+.display-17 {
+	background-color: #F8E94F;
+	border: thick double #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	 left: 0px;
+    top: 1650px;
+	cursor: pointer;
+	
+}
+.display-18 {
+	background-color: #65FFD6;
+	border: thick double #00034B;
+    position: absolute;
+    font-family: "華康新綜藝體W9(P)";
+    font-size: 60px;
+    color: #001431;
+    text-align: center;
+	 left: 0px;
+    top: 1750px;
+	cursor: pointer;
+	
+}
